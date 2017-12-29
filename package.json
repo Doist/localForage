@@ -1,19 +1,19 @@
 {
-  "name": "localforage",
-  "author": "Mozilla",
+  "name": "@doist/localforage",
+  "author": "Doist",
   "license": "Apache-2.0",
-  "description": "Offline storage, improved.",
+  "description": "Custom patched version of original localforage",
   "keywords": [
     "indexeddb",
     "localstorage",
     "storage",
     "websql"
   ],
-  "version": "1.5.3",
-  "homepage": "https://github.com/localForage/localForage",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Doist/localForage",
   "repository": {
     "type": "git",
-    "url": "git://github.com/localForage/localForage.git"
+    "url": "git://github.com/Doist/localForage"
   },
   "scripts": {
     "build": "node -e \"require('grunt').cli()\" null build",
@@ -60,9 +60,6 @@
   },
   "main": "dist/localforage.js",
   "typings": "typings/localforage.d.ts",
-  "bugs": {
-    "url": "http://github.com/localForage/localForage/issues"
-  },
   "dependencies": {
     "lie": "3.0.2"
   }
